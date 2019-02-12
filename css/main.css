@@ -1,0 +1,65 @@
+html, body {
+  width: 100%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: arial;
+  margin: 0;
+}
+
+.form_wrapper {
+  padding-top: 30px;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 330px;
+}
+
+.input_wrapper {
+  padding: 5px 0px 5px 0px;
+  width: 100%;
+}
+
+#submit_button {
+  float: right;
+  margin-top: 0px;
+  background-color: #000;
+  color: #fff;
+  border-image: none;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 5px;
+}
+
+#submit_button:hover, #submit_button:focus {
+  opacity: .7;
+  background-color: #555;
+}
+
+.input_field {
+  display: inline-block;
+  width: 76%;
+  overflow: hidden;
+  padding-right:10px;
+}
+
+.input_field input {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 4px 0px 6px 2px;
+}
+
+#the_canvas {
+  background-color: #000;
+  margin: 0 auto;
+  display: block;
+  max-width: 900px;
+  max-height: 300px;
+}
